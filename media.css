@@ -1,0 +1,58 @@
+@media screen and (max-width: 991px) {
+    body {width: 100%;}
+    .col-lg-6 {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    #banner img {height: 450px;}
+    #banner h2 {font-size: 27px;}
+    #banner p {font-size: 20px;}
+    #sectionA {
+        background-color: white;
+        border-color: white;
+        border-style: none;
+    }
+    #sectionA img {width: 100%; padding: 20px 0; border-radius: 0%;}
+    #HN h2 {color:   #ce991e;
+        font-size: 27px;
+        padding: 0;}
+    #HN p {color: black;
+        font-size: 20px;
+        padding: 0;}
+    #HN a {color: rgb(61, 104, 245); font-size: 20px; padding: 20px;}
+    #sectionB {
+        background-color: white;
+        border-color:white; 
+        border-style: none;
+    }
+    #sectionB img {width: 100%; padding: 20px 0; border-radius: 0%;}
+    #HCM h2 {color:  #ce991e;
+        font-size: 27px;
+        padding: 0;}
+    #HCM p {color: black;
+        font-size: 20px;
+        padding: 0;}
+    #HCM a {color: rgb(61, 104, 245); font-size: 20px; padding: 20px;}
+    #conclusion h2 {font-size: 27px; text-align: center;   padding: 0;}
+    #conclusion ul {list-style-type: circle;}
+    #conclusion p {font-size: 20px; line-height: 1;}
+    .box > span {font-size: 20px;}
+}
+
+@media screen and (max-width: 768px) {
+    body {width: 100%;}
+    .col-lg-6 {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+    #banner img {height: 350px;}
+    #banner h2 {animation: none; color:#1d3037;}
+    #banner p {font-size: 20px;}
+    #gallery {display: none;}
+    #conclusion ul {list-style-type: none; padding: 0;}
+    hr {opacity: 0;}
+    #end h2 {font-size: 27px;}
+    #end p {font-size: 20px;}
+}

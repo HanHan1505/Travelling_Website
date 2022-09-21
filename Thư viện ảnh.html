@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện ảnh</title>
+    <style>
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 80vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px #7ba9b9;
+  line-height: 0;
+}
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  color: #1d3037;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+#menu {width: 100%; height: auto; padding: 20px 0;}
+#menu li {list-style-type: none;}
+#menu a {
+    color: #1d3037;
+    font-size: 19px;
+    font-weight: 650;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #fec02e;
+}
+.left {
+    float: left;
+    width: 120px;
+    padding-left: 2%;
+    color: #12709c;
+}
+.right {
+    float: right;
+    width: 110px;
+    padding-right: 2%;
+    color: #12709c;
+}
+p {font-size: 22px; font-family: 'Times New Roman', Times, serif; padding: 10px 15px; text-indent: 1.5;}
+#end {width: 100%; height: 250px; background-color: #1d3037;}
+#end h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 40px 0 20px;
+    color: hsl(42, 100%, 67%);
+}
+#end p {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+</style>
+</head>
+<body>
+<div id="menu">
+<ul>
+        <li class="left"><a href="Giới thiệu.html">GIỚI THIỆU</a></li>
+        <li class="left"><a href="Đăng nhập.html">ĐĂNG NHẬP</a></li>
+        <li class="right"><a href="Thư viện ảnh.html">THƯ VIỆN</a></li>
+        <li class="right"><a href="Trợ giúp.html">GIẢI ĐÁP</a></li>
+        <li class="right"><a href="Đăng ký.html">ĐĂNG KÝ</a></li>
+</ul>
+</div>
+    <div class="container">
+        <div class="box">
+          <img src="HN.jpg">
+          <span>Hà Nội</span>
+        </div>
+        <div class="box">
+          <img src="HCM.jpg">
+          <span>Hồ Chí Minh</span>
+        </div>
+        <div class="box">
+          <img src="banner.jpg">
+          <span>Vùng cao</span>
+        </div>
+        <div class="box">
+            <img src="beach.jpeg">
+            <span>Bãi biển</span>
+        </div>
+        <div class="box">
+            <img src="ha long.jpeg">
+            <span>Di tích UNESCO</span>
+        </div>
+      </div>
+    <p><strong>Hà Nội</strong>- Thủ đô văn hiến nghìn năm lịch sử. Nơi chốn linh thiêng của tổ quốc Việt Nam. Đứng nhìn mỗi một cảnh vật, khung hình đều chứa chan hàng ngàn câu chuyện. Mỗi một góc hình, chạm trổ đều mang cả vạn dư niệm cổ kính xa xưa.
+    Bất cứ địa danh nào cũng như có hàng vạn tâm sự, đợi người đến nghe.</p>
+    <p><strong>Thành phố Hồ Chí Minh</strong>- Phồn hoa Sài thành đất chật người đông. Nơi các ánh đèn, tiếng còi nhộn nhịp, huyên náo tựa một vùng trời hoa. Nơi sự biến hóa hiện đại len lỏi mọi con đường, góc phố. Đến với thành phố Hồ Chí Minh, bạn có thể nhìn thấy cả vùng trời Âu giữa lòng thành phố.
+        Nơi có thể dễ dàng cảm nhận sự nức nở, nhiệt tình từ người dân bản địa.</p>
+    <div id="end">
+            <h2>BLOG CHIA SẺ CẢNH ĐẸP VIỆT NAM:</h2>
+            <p>Hân hạnh cùng bạn tận hưởng những điều dịu dàng, xinh đẹp nhất của đất nước Việt.</p>
+            <p>Nếu cần giúp đỡ, vui lòng chia sẻ qua hộp thư: <strong><em>nguyenxxxVN@gmail.com</em></strong></p>
+    </div>
+</body>
+</html>
